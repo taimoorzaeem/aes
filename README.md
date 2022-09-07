@@ -4,10 +4,10 @@ Implemented AES in Intel x86 assembly.
 For building on windows:
 
 ### Requirements
-You must have ```masm32``` installed on your machine and added to your path.
+You must have Microsoft Macro Assembler or `masm` installed on your machine and added to your path.
 Disable windows defender in case it interferes with building.
 
-To build:
+**To build:**
 ```
-> masm32 aes
+> make32 aes
 ```
